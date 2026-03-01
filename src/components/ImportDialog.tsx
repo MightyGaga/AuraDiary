@@ -1,7 +1,7 @@
 import { useState, useRef, ChangeEvent } from 'react';
 import { DiaryEntry, Mood } from '@/lib/types';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from '@/components/ui/dialog-ui';
-import { Button } from '@/components/ui/button-ui';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from '@/components/shadcn/Dialog';
+import { Button } from '@/components/shadcn/Button';
 import { Upload, FileText, AlertCircle } from 'lucide-react';
 import { parse } from 'date-fns';
 

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { DiaryEntry } from '@/lib/types';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from '@/components/ui/dialog-ui';
-import { Button } from '@/components/ui/button-ui';
-import { Calendar } from '@/components/ui/calendar-ui';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from '@/components/shadcn/Dialog';
+import { Button } from '@/components/shadcn/Button';
+import { Calendar } from '@/components/shadcn/Calendar';
 import { Download, FileText } from 'lucide-react';
 import { DateRange } from 'react-day-picker';
 import { format, isWithinInterval, startOfDay, endOfDay } from 'date-fns';
