@@ -1,9 +1,9 @@
-import { Button } from "@/ui/button.tsx";
+import { Button } from "./v-ui/button";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/ui/popover.tsx";
+} from "./v-ui/popover";
 import { BookHeart, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 

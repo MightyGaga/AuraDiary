@@ -1,7 +1,7 @@
 import { useState, useRef, ChangeEvent } from 'react';
 import { DiaryEntry, Mood } from '@/lib/types';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from '@/ui/dialog.tsx';
-import { Button } from '@/ui/button.tsx';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from './v-ui/dialog';
+import { Button } from './v-ui/button';
 import { Upload, FileText, AlertCircle } from 'lucide-react';
 import { parse } from 'date-fns';
 

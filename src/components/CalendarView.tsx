@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { DiaryEntry, MOODS } from '@/lib/types';
-import { Calendar } from '@/ui/calendar.tsx';
-import { Card, CardContent, CardHeader, CardTitle } from '@/ui/card.tsx';
+import { Calendar } from './v-ui/calendar';
+import { Card, CardContent, CardHeader, CardTitle } from './v-ui/card';
 import { format, isSameDay } from 'date-fns';
 import { motion, AnimatePresence } from 'motion/react';
 
