@@ -5,7 +5,7 @@ import { ExportDialog } from '@/components/ExportDialog';
 import { ImportDialog } from '@/components/ImportDialog';
 import { ThemeSelector, Theme } from '@/components/ThemeSelector';
 import { useDiary } from '@/hooks/useDiary';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/Tabs';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs-ui';
 import { motion } from 'motion/react';
 import { CalendarDays, List } from 'lucide-react';
 import { useState, useEffect } from 'react';
