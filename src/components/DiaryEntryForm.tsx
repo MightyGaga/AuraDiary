@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { MoodSelector } from './MoodSelector';
-import { Button } from '@/components/elements/button';
-import { Textarea } from '@/components/elements/textarea';
-import { Card, CardContent } from '@/components/elements/card';
+import { Button } from '@/ui/button.tsx';
+import { Textarea } from '@/ui/textarea.tsx';
+import { Card, CardContent } from '@/ui/card.tsx';
 import { Mood } from '@/lib/types';
 import { motion, AnimatePresence } from 'motion/react';
 import { Send, Sparkles } from 'lucide-react';

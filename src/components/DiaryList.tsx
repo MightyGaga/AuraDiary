@@ -1,9 +1,9 @@
 import { DiaryEntry, MOODS } from '@/lib/types';
 import { format } from 'date-fns';
-import { Card, CardContent } from '@/components/elements/card';
+import { Card, CardContent } from '@/ui/card.tsx';
 import { motion } from 'motion/react';
 import { Trash2 } from 'lucide-react';
-import { Button } from '@/components/elements/button';
+import { Button } from '@/ui/button.tsx';
 
 interface DiaryListProps {
   entries: DiaryEntry[];
