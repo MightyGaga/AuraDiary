@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { MoodSelector } from './MoodSelector';
-import { Button } from '@/components/shadcn/Button';
-import { Textarea } from '@/components/shadcn/Textarea';
-import { Card, CardContent } from '@/components/shadcn/Card';
+import { Button } from '@/components/v-ui/v-button.tsx';
+import { Textarea } from '@/components/v-ui/v-textarea.tsx';
+import { Card, CardContent } from '@/components/v-ui/v-card.tsx';
 import { Mood } from '@/lib/types';
 import { motion, AnimatePresence } from 'motion/react';
 import { Send, Sparkles } from 'lucide-react';
