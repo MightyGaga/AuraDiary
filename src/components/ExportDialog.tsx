@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { DiaryEntry } from '@/lib/types';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from '@/components/v-ui/v-dialog.tsx';
-import { Button } from '@/components/v-ui/v-button.tsx';
-import { Calendar } from '@/components/v-ui/v-calendar.tsx';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from '../vui/Dialog';
+import { Button } from '../vui/Button';
+import { Calendar } from '../vui/Calendar';
 import { Download, FileText } from 'lucide-react';
 import { DateRange } from 'react-day-picker';
 import { format, isWithinInterval, startOfDay, endOfDay } from 'date-fns';
