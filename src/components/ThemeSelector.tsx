@@ -1,9 +1,9 @@
-import { Button } from "@/components/uikit/ui-button";
+import { Button } from "@/components/elements/button";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/uikit/ui-popover";
+} from "@/components/elements/popover";
 import { BookHeart, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 
