@@ -1,0 +1,5 @@
+{
+  "name": "AuraDiary",
+  "description": "A minimalist mood and thought journal with auto-timestamping and calendar view.",
+  "requestFramePermissions": []
+}
